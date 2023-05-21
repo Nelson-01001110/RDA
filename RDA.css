@@ -1,0 +1,23 @@
+/* To center the text */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* To change when the screen width is more than 840px */
+@media (min-width: 840px) {
+    body{
+        background-color: #ffffff;
+        font-size: 50px;
+    }
+}
+/* To change when the screen width is less than 840px */
+@media (max-width: 840px) {
+    body{
+        color: #ffffff;
+        background-color: #000000;
+        font-size: 25px;
+    }
+}
